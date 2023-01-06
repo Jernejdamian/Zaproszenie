@@ -26,13 +26,17 @@ html{
     .unlist{
         text-decoration: none;
         color: black;
+        border: 2px solid black;
+        padding: 5px;;
     }
     .unlist:hover{
 color: silver;
     }
     .section{
         margin-top: 100px;
+        width: 100%;
     }
+    
     
     .orderList{
         padding-left: 50px;
@@ -59,9 +63,19 @@ color: silver;
     }
     .image2{
         border-radius: 50%;
+        max-width: 200px;
     }
     .order{
         list-style-type: none;
+        display: flex;
+        
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-basis: auto;
+        margin: 0 auto;
+        
+       
     }
     .dark{
         background-color: red;
